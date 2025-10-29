@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-red-50;
+h1 {
+  @apply text-orange-500;
 }
