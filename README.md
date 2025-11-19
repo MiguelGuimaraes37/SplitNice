@@ -2,6 +2,7 @@
 A better version of the original app SplitWise. The main objective of this app is to ensure the users have the perfect tools to manage their charges and debts
 
 🚀 Why SplitNice?
+
 ✔️ Unlimited Expense Tracking
 
 No restrictions. Add as many expenses as you need, whenever you need them—instantly and without cooldown delays.
