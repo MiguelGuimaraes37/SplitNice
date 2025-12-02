@@ -1,6 +1,14 @@
 # SplitNice
 A better version of the original app SplitWise. The main objective of this app is to ensure the users have the perfect tools to manage their charges and debts
 
+Video Apresentation
+
+<a href="https://jumpshare.com/share/1MxUmyUAxhQ9ShYDXubZ">SplitWise</a>
+
+A review of the original app 
+
+<a href="https://www.youtube.com/watch?v=KZiIq6vg7Y8">SplitWise</a>
+
 🚀 Why SplitNice?
 
 ✔️ Unlimited Expense Tracking
@@ -47,8 +55,4 @@ Your expenses stay yours.
 
 Export your data anytime (CSV, JSON, PDF). Your expense history is always accessible and never locked behind a paywall.
 
-Video Apresentation
 
-<a href="https://jumpshare.com/share/1MxUmyUAxhQ9ShYDXubZ">SplitWise</a>
-
-A review of the original app -> <a href="https://www.youtube.com/watch?v=KZiIq6vg7Y8">SplitWise</a>
