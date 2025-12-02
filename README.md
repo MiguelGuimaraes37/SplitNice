@@ -49,6 +49,6 @@ Export your data anytime (CSV, JSON, PDF). Your expense history is always access
 
 Video Apresentation
 
-<img width="2048" height="2048" alt="Apresentation SplitNice_qrcode" src="https://github.com/user-attachments/assets/53101da9-7416-4bab-a362-580876329168" />
+<a href="https://jumpshare.com/share/1MxUmyUAxhQ9ShYDXubZ">SplitWise</a>
 
 A review of the original app -> <a href="https://www.youtube.com/watch?v=KZiIq6vg7Y8">SplitWise</a>
