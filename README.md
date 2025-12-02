@@ -47,4 +47,8 @@ Your expenses stay yours.
 
 Export your data anytime (CSV, JSON, PDF). Your expense history is always accessible and never locked behind a paywall.
 
+Video Apresentation
+
+<img width="2048" height="2048" alt="Apresentation SplitNice_qrcode" src="https://github.com/user-attachments/assets/53101da9-7416-4bab-a362-580876329168" />
+
 A review of the original app -> <a href="https://www.youtube.com/watch?v=KZiIq6vg7Y8">SplitWise</a>
