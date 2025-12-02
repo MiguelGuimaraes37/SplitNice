@@ -3,7 +3,7 @@ A better version of the original app SplitWise. The main objective of this app i
 
 Video Apresentation
 
-<a href="https://jumpshare.com/share/1MxUmyUAxhQ9ShYDXubZ">SplitWise</a>
+<a href="https://jumpshare.com/share/1MxUmyUAxhQ9ShYDXubZ">SplitNice</a>
 
 A review of the original app 
 
