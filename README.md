@@ -1,11 +1,11 @@
 # SplitNice
 A better version of the original app SplitWise. The main objective of this app is to ensure the users have the perfect tools to manage their charges and debts and help my mom 😉
 
-Video Apresentation
+📹 Video Apresentation
 
 <a href="https://jumpshare.com/share/1MxUmyUAxhQ9ShYDXubZ">SplitNice</a>
 
-A review of the original app 
+📹 A review of the original app 
 
 <a href="https://www.youtube.com/watch?v=KZiIq6vg7Y8">SplitWise</a>
 
