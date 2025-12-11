@@ -7,15 +7,16 @@
         SplitWise
       </h2>
 
-      <form className="space-y-4">
+      <form className="space-y-4" @submit.prevent="">
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1"
-            >Email</label
+            >Username</label
           >
           <input
-            type="email"
+            type="text"
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all"
-            placeholder="your@email.com"
+            placeholder="Maria37"
+            v-model.trim="username"
           />
         </div>
 
@@ -27,6 +28,7 @@
             type="password"
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all"
             placeholder="••••••••"
+            v-model.trim="password"
           />
         </div>
 
@@ -36,15 +38,23 @@
               type="checkbox"
               className="rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
             />
-            <span className="ml-2 text-sm text-gray-600">Remember me</span>
+            <span
+              className="ml-2 text-sm text-gray-600"
+              @click="rememberMe = true"
+              >Remember me</span
+            >
           </label>
-          <a href="#" className="text-sm text-indigo-600 hover:text-indigo-500"
+          <a
+            href="#"
+            className="text-sm text-indigo-600 hover:text-indigo-500"
+            @click="forgotPassword = true"
             >Forgot password?</a
           >
         </div>
 
         <button
           className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2.5 rounded-lg transition-colors"
+          @click="login"
         >
           Sign In
         </button>
@@ -61,3 +71,35 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { ref } from 'vue';
+import { useStore } from 'vuex';
+
+const username = ref('');
+const password = ref('');
+const rememberMe = ref(false);
+const forgotPassword = ref(false);
+const store = useStore();
+
+const mode = ref('login');
+
+async function login() {
+  if (username.value === '' || password.value === '') return;
+
+  const actionPayload = {
+    username: username.value,
+    password: password.value,
+  };
+
+  await store.dispatch('login', actionPayload);
+
+  // try {
+  //   if (mode.value === 'login') {
+  //     console.log('Test');
+  //   }
+  // } catch (error) {
+  //   console.log('Failed to authenticate. Check your login data');
+  // }
+}
+</script>
